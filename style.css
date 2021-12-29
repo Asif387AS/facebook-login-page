@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navBar{
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 .5rem;
+    background-color: rgb(25, 25, 90);
+    position: sticky;
+    top: 0;
+}
+.navBar .logo{
+    color:#ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.navBar .navRight{
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 1rem;
+}
+.navBar .navRight div{
+    display:flex;
+   flex-direction: column;
+   margin:5px;
+
+}
+.navBar .navRight div p{
+    color:rgb(211, 204, 204);
+}
+ .navRight div small{
+    color:rgb(156, 147, 147); 
+     font-size: 1rem;
+    /* background-color: red; */
+}
+.navBar .navRight a{
+ margin-top: 20px;
+ margin-right: 5px;
+ padding:3px;
+
+ margin-left: 1rem;
+ text-decoration: none;
+ width:4rem;
+ height:1.5rem;
+ text-align: center;
+ outline: none;
+ color:#ffff;
+ background-color:rgb(32, 32, 122);
+ cursor: pointer;
+}
+
+
+.container{
+    height:100vh;
+    width:100vw;
+    display:grid;
+    grid-template-columns: 1fr .9fr;
+}
+.container .left-div{
+    margin-top: 4rem;
+  width:40vw;
+  /* background-color:blue; */
+}
+.container .right-div{
+  padding-right: 3rem;
+  /* background-color: red; */
+}
+
+.fa-thin{
+    width:1rem;
+    height: 1rem;
+    /* background-color:red; */
+}
+.left-div img{
+    width: 3rem;
+    height:auto;
+}
+
+.left-div h1{
+    margin-bottom: 2rem;
+    width:30rem;
+    margin-left: 3px;
+}
+.left-div div{
+    margin-bottom: 1.2rem;
+    padding-left: 1rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left-div p{
+    font-weight:bold;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+.left-div small{
+    color: gray;
+}
+
+.firstLast{
+    width:100%;
+ display:flex;
+ flex-direction: row;
+  /* flex-basis: 50%; */
+  /* background-color: rgb(0, 255, 0); */
+}
+
+.right-div{
+    margin-top: 1rem;
+    padding-left: 5rem;
+}
+form{
+    margin-top: 1rem;
+
+    /* width:104.5%; */
+}
+form input{
+    padding:8px;
+    margin:4px;
+    border-radius: 6px;
+    margin-right: 2.5px;
+    outline: none;
+    border: 2px solid gray;
+    text-decoration: none;
+    outline: none;
+}
+.form-control{
+    width: 99%;
+}
+input::placeholder{
+    color:gray;
+    font-weight: 700;
+}
+.dark::placeholder{
+    color:rgb(175, 173, 173);
+    font-weight: 700;
+}
+.form-group{
+   width:22.2rem;
+}
+.right-div label{
+    margin-top: 2rem;
+}
+.birthday{
+    width:10rem;
+    display:flex;
+    flex-direction: column;
+    /* font-size: 2rem; */
+    /* font-weight: bold; */
+}
+.birthday label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.birthday small{
+    color: rgb(76, 76, 161);
+    font-size: 1rem;
+}
+.birthday .btn{
+    width:4rem;
+    height:2rem;
+    background-color:black;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    outline:none;
+    border-radius: none;
+
+}
+
+.checkbox{
+    display:flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+.checkbox div{
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.checkbox div input{
+    cursor:pointer;
+}
+.info p{
+    margin-top: 2rem;
+    width:50%;
+}
+.info p span{
+    color: midnightblue;
+}
+.signup{
+    margin-top: 1.2rem;
+}
+.signup button{
+    background-color:green;
+    color: white;
+    padding:4px 40px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+#birthday{
+    cursor: pointer;
+}
